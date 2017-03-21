@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.projectm" name="  [COLOR aqua]Project M[/COLOR]" version="1.2.5" provider-name="Merlin Project">
+<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="repository.ytplugin" />
+	<import addon="repository.tknorris.release" />
+    <import addon="plugin.video.youtube" />
+</requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Merlin Project Bring You Live, On Demand TV And Many Various Playlists.</summary>
+    <description lang="en">Please Enjoy, This Is An Ongoing Project! Remember There Are No Guarantees With Any Link And We Are Under No Obligation To Give Any Guarantees! The Base Code For This Addon Has Been Developed/Forked From Shanis Livestream Pro With Edits From Lambda, Hacamac, Merlin And Others Who Are Hashed Within The Code!</description>
+    <disclaimer lang="en">Merlin Project Takes No Credit Or Liability For The Content Provided! Be Sure To Obtain Only From The Merlin Repo!</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>

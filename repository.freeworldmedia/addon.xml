@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.freeworldmedia" name="[COLOR royalblue]Freeworld[/COLOR][COLOR yellow] Addon[/COLOR][COLOR red] R[/COLOR][COLOR white]epository[/COLOR]" version="2.9" provider-name="Freeworld">
+	<extension point="xbmc.addon.repository" name="Freeworld Addon Repository">
+        <dir>
+			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+		</dir>
+    
+    <info compressed="false">http://freemediaentertainment.com/FreeworldMedia/main/addons.xml</info>
+    <checksum>http://freemediaentertainment.com/FreeworldMedia/main/addons.xml.md5</checksum>
+    <datadir zip="true">http://freemediaentertainment.com/FreeworldMedia/main/zips</datadir>
+
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>[COLOR lime]About Freeworld Repository.[/COLOR]</summary>
+		<description>[COLOR coral]Freeworld Repository free and open source developed by the Freeworld Entertainment Group,Freeworld Repo is available for multiple operating-systems and hardware platforms, featuring the best Addons Program Scripts and Repository Always Update.The Plugin.Video.Addon allows users to play and view most videos, music, podcasts, and other digital media files from local and network storage media and the internet.[/COLOR]</description>
+		<platform>all</platform>
+	</extension>
+</addon>

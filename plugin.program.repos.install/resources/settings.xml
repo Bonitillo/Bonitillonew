@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Select Source">
+		<setting id="source" type="select" label="[B][COLOR blue]Select Source - ReposInstall[/COLOR][/B]" values="Local|URL" default="Local"/>
+		<setting id="url" type="text" label="[B][COLOR blue]Enter Path to URL - Freemediaentertainment URL[/COLOR][/B]" default=""/>		
+   	</category>	  
+    <category label="Auto-View">
+		<setting id="auto-view" type="bool" label="Enable Auto View" default="true"/>
+		<setting id="MAIN" type="number" label="MAIN" default="500" enable="!eq(-1,false)"/>
+   	</category>	   	
+  </settings>

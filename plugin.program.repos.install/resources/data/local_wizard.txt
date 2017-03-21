@@ -1,0 +1,5 @@
+name="FreeReposInstall"
+url="use_local_file"
+img="_kodi.jpg"
+fanart="local_kodi.jpg"
+description="FreeReposInstall"

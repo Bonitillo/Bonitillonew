@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<setting id="ADDONAGENT" type="text"label="ADDONAGENT" default=" " option="hidden" visible="false"/>
+	<setting id="loginUrl" type="text"label="loginUrl" default=" " option="hidden" visible="false"/>
+	<setting id="Password" type="text"label="Password" default=" " option="hidden" visible="false"/>
+	<setting id="loginUrlNew" type="text"label="loginUrlNew" default=" " option="hidden" visible="false"/>	
+	<setting id="PasswordNew" type="text"label="PasswordNew" default=" " option="hidden" visible="false"/>
+	<setting id="HelloLogin" type="text"label="HelloLogin" default=" " option="hidden" visible="false"/>
+	<setting id="HelloUrl" type="text"label="HelloUrl" default=" " option="hidden" visible="false"/>
+	<setting id="HelloUrl1" type="text"label="HelloUrl1" default=" " option="hidden" visible="false"/>
+	<setting id="PasswordHello" type="text"label="PasswordHello" default=" " option="hidden" visible="false"/>
+	<setting id="LiveTvUrl" type="text"label="LiveTvUrl" default=" " option="hidden" visible="false"/>
+	<setting id="LiveTvLogin" type="text"label="LiveTvLogin" default=" " option="hidden" visible="false"/>
+	<setting id="PasswordLiveTv" type="text"label="PasswordLiveTv" default=" " option="hidden" visible="false"/>
+	<setting id="nexgtvUrl" type="text"label="nexgtvUrl" default=" " option="hidden" visible="false"/>
+	<setting id="nexgtvToken" type="text"label="nexgtvToken" default=" " option="hidden" visible="false"/>
+	<setting id="nexgtvPass" type="text"label="nexgtvPass" default=" " option="hidden" visible="false"/>
+	<setting id="Agent" type="text"label="Agent" default=" " option="hidden" visible="false"/>	
+</settings>

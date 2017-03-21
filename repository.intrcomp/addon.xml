@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.intrcomp" name="Intrcomp Media" version="1.2" provider-name="INTRCOMP Media">
+	<extension point="xbmc.addon.repository" name="Intrcomp Media">
+	<dir>
+		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+		</dir>
+		<info compressed="false">http://intrcomp.com/Plugins/addons.xml</info>
+		<checksum>http://intrcomp.com/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://intrcomp.com/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Instala canales desde el Repositorio Intrcomp</summary>
+		<description>Preguntass o problemas Subscribete al canal de youtube INTRCOMP MEDIA</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+

@@ -1,0 +1,5 @@
+[B]Version 1.0[/B]
+- Initial version
+
+[B]Version 1.2[/B]
+- Dependencies added

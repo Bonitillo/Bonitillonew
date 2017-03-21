@@ -1,0 +1,218 @@
+[B]1.11.1 - 2017-02-13[/B]
+- revert change in login with missing device id
+
+[B]1.11 - 2017-02-09[/B]
+- added 'Play all from here' for playlists
+- added 'Start radio' for playlists
+- added search history
+- updated gmusicapi library
+- fix missing artist name when playing radio
+- fix search navigation errors
+- fix more character encoding errors
+
+[B]1.10.6 - 2016-10-27[/B]
+- fix more character encoding errors
+
+[B]1.10.5 - 2016-10-26[/B]
+- fix bug when auto update library is enabled
+
+[B]1.10.4 - 2016-10-21[/B]
+- avoid checking if any data needs updating on every call
+
+[B]1.10.3 - 2016-10-19[/B]
+- fix character encoding errors
+
+[B]1.10.2 - 2016-10-14[/B]
+- fix listing videos in search (thanks bkanuka)
+- free radios should work again (fixed regression from gmusicapi)
+
+[B]1.10.1 - 2016-08-29[/B]
+- prevent error with two threads trying to update the library at the same time
+- fixed 'start radio' missing song title
+- fixed 'play in youtube' missing artist name
+
+[B]1.10 - 2016-08-12[/B]
+- improved search: now is possible to fetch more songs, artists or albums
+- return stations in search
+- improved 'play in youtube': better match when fetching and use video ids when provided by google
+- added option 'play in yotube - shuffle'
+- new 'Videos' auto playlist: all songs with video id provided by google
+- updated gmusicapi library
+- updated icon
+- fixes for krypton
+
+[B]1.9.3 - 2016-06-20[/B]
+- fix missing 'artistart' when fetching metadata for songs
+
+[B]1.9.2 - 2016-05-10[/B]
+- fix error where free stations menu was not showing
+- improve new version detection to reload library
+- more favourites fixes
+
+[B]1.9.1 - 2016-05-02[/B]
+- add artist background in artists
+- fix error when not a subscriber and free radio is not available (available only in us/canada?)
+
+[B]1.9 - 2016-04-28[/B]
+- support for free radio
+- improve search results
+- add artist background in albums
+- cache artist background art for store songs
+- fix error when favourites file does not exist
+
+[B]1.8.4 - 2016-04-22[/B]
+- fix loading album art in search
+- fix 'Add to library', broken in latest refactory
+
+[B]1.8.3 - 2016-04-11[/B]
+- remove unnecessary import from gmusicapi failing with openelec
+- fix loading empty playlist
+- update French translation, thanks mrotschi and neolao
+
+[B]1.8.2 - 2016-04-06[/B]
+- fix syntax error in android
+- fix loading track with missing duration field
+
+[B]1.8.1 - 2016-04-05[/B]
+- fix loading store tracks when artistId is missing
+- fix reference to old deleted file
+
+[B]1.8 - 2016-04-01[/B]
+- added 'Create playlist', 'Delete playlist' and 'Delete station' to respectives context menus
+- added 'Set rating', 'Artist top songs' and 'Related artists' to song context menu
+- added distinct view modes in settings for songs, album, artists, playlists and stations
+- show thumbnail for playlists and library stations
+- fix for login without device id
+- refactory some code
+
+[B]1.7.3 - 2016-03-08[/B]
+- change in pkcs1 library to fix login
+
+[B]1.7.2 - 2016-03-08[/B]
+- fix playlists broken by latest modifications
+
+[B]1.7.1 - 2016-02-23[/B]
+- fix kodi library integration in Jarvis
+- don't include playlist songs automaticaly in library
+- add more song metadata when playing
+
+[B]1.7 - 2016-02-12[/B]
+- added option in settings to integrate kodi library in the addon
+- fetch artist art for All-Access/Unlimited content
+
+[B]1.6 - 2015-11-04[/B]
+- added option 'Add to queue' for albums and playlists
+- added option 'Export' to playlists, exporting to a M3U file
+- show your Genres library organized by albums
+- fix problem with huge library failing to load on a Raspberry Pi
+
+[B]1.5.1 - 2015-10-05[/B]
+- translation to Polish by mruwek
+- fix for error with Cyrillic letters in your user name
+
+[B]1.5 - 2015-09-22[/B]
+- added option 'Add album to library' to All Access subscribers
+- added 'Listen Now', 'Top Charts' and 'New Releases' to All Access subscribers
+- added Youtube video quality in settings
+
+[B]1.4.2 - 2015-09-04[/B]
+- fix error in library load
+- added call to reload library
+
+[B]1.4.1 - 2015-08-04[/B]
+- fix unicode errors on notifications
+
+[B]1.4 - 2015-07-27[/B]
+- upgraded gmusicapi library to use OAuth authentication, 'less secure apps' not needed anymore
+- fixed 'play in youtube' by upgrading to youtube v3 api
+- fixed 'Free and purchased' playlist
+- contrib: 'Shuffle Albums' by dvirtz
+- contrib: support for sort by Album, Artist, Year and Date to album listings by rui-castro
+- contrib: show albums for album_artist entries too by nfvs
+- contrib: read disc number property so tracks sort properly by nfvs
+- translation to Portuguese by rui-castro
+- translation to French by mrotschi
+- translation to German by jgierer12
+- translation to Spanish by petemir
+- changed default sort methods
+- added library export to 'My Library' context menu
+- added 'Start Radio' to context menu of every song
+- show artist fanart or addon background in songs and folders
+- don't store the password in plaintext
+- fixes and code refactoring
+- improved search results
+- added options 'search in youtube' and 'play in youtube' to songs
+- added option 'play all in youtube' to playlists, radios and library folders
+- added option 'search' to library folders
+- added option in settings to export after library update
+- removed support for old webclient api (a registered mobile device is now required to stream uploaded songs)
+
+[B]1.3[/B]
+- show artwork when browsing artists/albums/playlists/search results
+- show album artwork when playing song
+- change view when browsing library and added option to disable it (only works with confluence)
+- added alternative sort methods
+- fixes for all access search
+
+[B]1.2[/B]
+- return albums and artists in 'All Access' search
+- able to choose stream quality in settings
+- change thumbs up song selection
+- added 'I'm feeling lucky mix'
+- able to add/remove song to/from playlists
+- able to add AA tracks to library
+- tweaks in library browsing
+- try to fetch thumbs up list for AA tracks
+
+[B]1.1[/B]
+- initial All Access search support, only tracks for now
+- show artist name when browsing albums
+- add 'Add to favourite' to most context menus
+- performance improvements when populating folders
+
+[B]1.0[/B]
+- increment song play count
+- add year information to album folder when available
+- upgrade api version in gmusicapi
+- fix for albums with same name and different artists showing mingled
+
+[B]0.8exp23[/B]
+- fix error loading instant mixes without a album art url
+- workaround for android and osx failing to obtain the device_id, user must provide it manually
+
+[B]0.8exp22[/B]
+- don't try to load web cookies even if empty
+
+[B]0.8exp21[/B]
+- upgrade gmusicapi library to latest develop version
+- change library and playlist loading to always use mobile api
+
+[B]0.8exp20[/B]
+- add context menu action 'Update Library' to 'My Library'
+- add option in settings to auto update library on a schedule
+- fix error when loading playlists
+- fix bug with instant mixes (second try)
+
+[B]0.8exp19[/B]
+- fix bug with instant mixes
+
+[B]0.8exp18[/B]
+- don't use cached cookies when streaming, prevent fails with all access tracks
+
+[B]0.8exp17[/B]
+- updated gmusicapi to latest develop version
+- some code refactoring to improve track listing performance
+- changed menu organization to better reflect Google's interface
+- added 'Suffle my library' playlist
+- prevent text conversion to unicode when loading library
+- automatically clean cache/cookies when changing addon version
+
+[B]0.8exp16[/B]
+- support IOS device_id
+- fix incorrect call to notification when playing all access with webclient
+
+[B]0.8exp15[/B]
+- fix for empty playlists (all access), thanks Travis
+- fix error when playing station track
+- fix json import with osx
+

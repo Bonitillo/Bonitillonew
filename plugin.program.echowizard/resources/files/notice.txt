@@ -1,0 +1,34 @@
+Hello All Echo Users!
+
+Thank you for opening Echo Wizard, however today I have some news.
+
+From this point forth I will be moving to a fantastic community with TVA Addons.
+
+I am doing this as I believe it is the best way for me to contribute to the community and it gives me the best platform possible to move forward with my addon development.
+
+I will no longer need to worry about the little things that come with what I do. i.e Maintaining a Server, moving hosts when they go down etc.
+
+I will be able to concentrate purely on my addon development which means I can bring more content to the table.
+
+So with this being said. You are seeing this message as today Echo Wizard closes.
+
+I know and understand that Echo Wizard has become a major part of a lot of peoples Kodi lives over the last year so rest assured I am not just walking away from what has been done here.
+
+I have assurances from TV Addons that I can bring my ideas into the development of Indigo.
+
+One big change that you will notice is that TV ADDONS doesn’t support builds. This is for several reasons including security concerns (builds can contain malicious code or unsafe addons) and due to the fact that the large size of most builds actually result in slower performance. TV ADDONS does have their own Config Wizard function in Indigo in case anyone is interested in a preconfiguration.
+
+It is my aim to get Indigo to surpass Echo Wizard and make it a better addition to your system than Echo Wizard ever was.
+
+I hope you understand the decision and give me your full backing and support in the journey ahead.
+
+TV Addons can be found at: www.tvaddons.ag
+
+The Echo Coder Repository will now be available via the fusion file manager source at:
+http://fusion.tvaddons.ag
+
+All Echo Support will now take place on the TVA forum at: http://tvaddons.ag/forums/
+
+Thank You!
+
+Echo Coder

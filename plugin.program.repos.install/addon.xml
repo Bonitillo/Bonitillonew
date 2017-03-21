@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.repos.install" name="[B][COLOR deeppink]Repos-Installer[/COLOR][/B]" version="1.0.0" provider-name="[COLOR cyan]FREEWORLD[COLOR]">
+  <requires>
+    <import addon="repository.freemediaentertainment" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR red]RE[/COLOR][COLOR silver][/COLOR]POS[COLOR blue] INSTALL[/COLOR][/B]</summary>
+    <description lang="en">[B][COLOR] cyan]FREEWORLD ENTERTAINMENT SIEMPRE BUSCANDO LA FORMA QUE SIEMPRE ESTEN ACTUALIZADOS[/COLOR][/B]</description>
+    <platform>all</platform>
+  </extension>
+</addon>

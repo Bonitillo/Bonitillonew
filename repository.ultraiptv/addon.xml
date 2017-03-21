@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.ultraiptv" name="Ultra IPTV Repository" version="1.0.0" provider-name="Ultraraaj400">
+	<extension point="xbmc.addon.repository" name="PodGod Addon Repository">
+		<info compressed="false">http://ultratv.net16.net/repo/addons.xml</info>
+		<checksum>http://ultratv.net16.net/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://ultratv.net16.net/repo/addons</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The official repository of Ultra IPTV</summary>
+		<description>The official repository of Ultra IPTV. Support me by checking out my social media: *YOUTUBE : https://www.youtube.com/user/ultraraaj400 *INSTAGRAM : https://instagram.com/ultraraaj *TWITTER : https://twitter.com/ultraraaj *OFFICIAL SITE! : Coming soon!</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
